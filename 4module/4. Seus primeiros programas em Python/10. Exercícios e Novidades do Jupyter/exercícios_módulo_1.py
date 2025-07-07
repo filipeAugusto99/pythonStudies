@@ -55,5 +55,7 @@ Repare que todas as bebidas não alcóolicas tem o início do Código "BEB" e to
 Crie um programa de consulta de bebida que, dado um código qualquer, identifique se a bebida é alcóolica. O programa deve responder True para bebidas alcóolicas e False para bebidas não alcóolicas. Para inserir um código, use um input.
 
 Dica: Lembre-se do comando in para strings e sempre insira os códigos com letra maiúscula para facilitar.
-"""
 
+codigo_bebida = input("Digite o codigo da bebida em letras maiusculas: ")
+print("BEB" in codigo_bebida)
+"""
